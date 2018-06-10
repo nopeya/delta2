@@ -29,8 +29,8 @@ public class BookDao extends BaseDao<Book> {}
 ```java
 public static void main(String[] args) {
 	BookDao dao = new BookDao();
-//		dao.list().get().forEach(DaoTest::print);
-//		dao.reset().list().andWhere("isbn=?").get("3").forEach(DaoTest::print);
+//	dao.list().get().forEach(DaoTest::print);
+//	dao.reset().list().andWhere("isbn=?").get("3").forEach(DaoTest::print);
 	Book book = new Book();
 	book.setIsbn("8875-89876");
 	book.setPrice(60);
