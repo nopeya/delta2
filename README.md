@@ -9,13 +9,13 @@
   1. 创建POJO，使用注解标注表属性
   
    ```java
-@Table
-public class Book {
-	@FK @Field private int id;
-	@Field private String bookname;
-	@Field private String isbn;
-	@Field private float price;
-}
+	@Table
+	public class Book {
+		@FK @Field private int id;
+		@Field private String bookname;
+		@Field private String isbn;
+		@Field private float price;
+	}
    ```
    
   2. 创建Dao文件
